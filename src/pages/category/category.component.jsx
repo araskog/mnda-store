@@ -1,6 +1,5 @@
 import React from "react";
 import { connect } from "react-redux";
-import collectionItemComponent from "../../components/collection-item/collection-item.component";
 
 import CollectionItem from "../../components/collection-item/collection-item.component";
 
