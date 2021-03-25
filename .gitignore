@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/client/node_modules
 /.pnp
 .pnp.js
 
@@ -12,9 +13,12 @@
 /build
 
 # Firebase Hosting
-/.firebase
+/client/.firebase
+.firebase
 .firebaserc
+/client/.firebaserc
 firebase.json
+/client/firebase.json
 
 # misc
 .DS_Store
@@ -22,6 +26,7 @@ firebase.json
 .env.development.local
 .env.test.local
 .env.production.local
+.env
 
 npm-debug.log*
 yarn-debug.log*
