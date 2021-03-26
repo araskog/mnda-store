@@ -42,4 +42,7 @@
       border: none;
     }
   }
+  @media screen and (max-width: 800px) {
+    margin: 3px 0;
+  }
 }
